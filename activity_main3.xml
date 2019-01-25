@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:rowCount="1"
+    android:columnCount="2"
+    >
+    <TextView
+        android:layout_row="0"
+        android:layout_column="0"
+        android:id="@+id/txt3"
+        android:layout_width="200dp"
+        android:layout_columnSpan="1"
+        android:layout_height="wrap_content"
+        android:text="Hello akash"/>
+    <TextView
+        android:layout_row="0"
+        android:layout_column="1"
+        android:id="@+id/txt4"
+        android:layout_width="100dp"
+        android:layout_columnSpan="1"
+        android:layout_height="wrap_content"
+        android:text="Hello Akash"/>
+
+</GridLayout>
